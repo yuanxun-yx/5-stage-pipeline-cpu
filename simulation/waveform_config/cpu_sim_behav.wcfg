@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="cpu_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="cpu_sim" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="798942fs"></ZoomEndTime>
+      <Cursor1Time time="15000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="492"></NameColumnWidth>
+      <ValueColumnWidth column_width="160"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/cpu_sim/uut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_sim/uut/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus410" type="vbus">
+      <obj_property name="label">pc_short</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/cpu_sim/uut/pc_reg[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/pc_reg[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/pc_reg[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/pc_reg[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/pc_reg[3]" type="logic">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">[3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/pc_reg[2]" type="logic">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">[2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/pc_reg[1]" type="logic">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">[1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/pc_reg[0]" type="logic">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group335" type="group">
+      <obj_property name="label">IF</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/cpu_sim/uut/pc_reg" type="array">
+         <obj_property name="ElementShortName">pc_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pc_reg[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/next_pc" type="array">
+         <obj_property name="ElementShortName">next_pc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">next_pc[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/instruction" type="array">
+         <obj_property name="ElementShortName">instruction[31:0]</obj_property>
+         <obj_property name="ObjectShortName">instruction[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/pc_plus_4" type="array">
+         <obj_property name="ElementShortName">pc_plus_4[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pc_plus_4[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/if_flush" type="logic">
+         <obj_property name="ElementShortName">if_flush</obj_property>
+         <obj_property name="ObjectShortName">if_flush</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group332" type="group">
+      <obj_property name="label">IF/ID</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/cpu_sim/uut/if_id_pc_reg" type="array">
+         <obj_property name="ElementShortName">if_id_pc_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">if_id_pc_reg[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/if_id_pc_plus_4_reg" type="array">
+         <obj_property name="ElementShortName">if_id_pc_plus_4_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">if_id_pc_plus_4_reg[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/if_id_inst_reg" type="array">
+         <obj_property name="ElementShortName">if_id_inst_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">if_id_inst_reg[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group334" type="group">
+      <obj_property name="label">ID</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="group333" type="group">
+         <obj_property name="label">controller</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/cpu_sim/uut/ctrl_reg_write" type="logic">
+            <obj_property name="ElementShortName">ctrl_reg_write</obj_property>
+            <obj_property name="ObjectShortName">ctrl_reg_write</obj_property>
+         </wvobject>
+         <wvobject fp_name="/cpu_sim/uut/ctrl_alu_source_a" type="logic">
+            <obj_property name="ElementShortName">ctrl_alu_source_a</obj_property>
+            <obj_property name="ObjectShortName">ctrl_alu_source_a</obj_property>
+         </wvobject>
+         <wvobject fp_name="/cpu_sim/uut/ctrl_alu_source_b" type="logic">
+            <obj_property name="ElementShortName">ctrl_alu_source_b</obj_property>
+            <obj_property name="ObjectShortName">ctrl_alu_source_b</obj_property>
+         </wvobject>
+         <wvobject fp_name="/cpu_sim/uut/ctrl_pc_source" type="array">
+            <obj_property name="ElementShortName">ctrl_pc_source[2:0]</obj_property>
+            <obj_property name="ObjectShortName">ctrl_pc_source[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/cpu_sim/uut/ctrl_data_to_reg" type="array">
+            <obj_property name="ElementShortName">ctrl_data_to_reg[1:0]</obj_property>
+            <obj_property name="ObjectShortName">ctrl_data_to_reg[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/cpu_sim/uut/ctrl_alu_operation" type="array">
+            <obj_property name="ElementShortName">ctrl_alu_operation[3:0]</obj_property>
+            <obj_property name="ObjectShortName">ctrl_alu_operation[3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/cpu_sim/uut/ctrl_mem_write" type="logic">
+            <obj_property name="ElementShortName">ctrl_mem_write</obj_property>
+            <obj_property name="ObjectShortName">ctrl_mem_write</obj_property>
+         </wvobject>
+         <wvobject fp_name="/cpu_sim/uut/ctrl_mem_read" type="logic">
+            <obj_property name="ElementShortName">ctrl_mem_read</obj_property>
+            <obj_property name="ObjectShortName">ctrl_mem_read</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/rd_data_a" type="array">
+         <obj_property name="ElementShortName">rd_data_a[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_data_a[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/rd_data_b" type="array">
+         <obj_property name="ElementShortName">rd_data_b[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_data_b[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/sign_ext_imm" type="array">
+         <obj_property name="ElementShortName">sign_ext_imm[31:0]</obj_property>
+         <obj_property name="ObjectShortName">sign_ext_imm[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/offset" type="array">
+         <obj_property name="ElementShortName">offset[31:0]</obj_property>
+         <obj_property name="ObjectShortName">offset[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/pc_plus_offset" type="array">
+         <obj_property name="ElementShortName">pc_plus_offset[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pc_plus_offset[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/id_ex_rs1_next" type="array">
+         <obj_property name="ElementShortName">id_ex_rs1_next[4:0]</obj_property>
+         <obj_property name="ObjectShortName">id_ex_rs1_next[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/id_ex_rs2_next" type="array">
+         <obj_property name="ElementShortName">id_ex_rs2_next[4:0]</obj_property>
+         <obj_property name="ObjectShortName">id_ex_rs2_next[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/reg_file_unit/registers" type="array">
+         <obj_property name="ElementShortName">registers[1:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">registers[1:31][31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/pc_alter_id_flush" type="logic">
+         <obj_property name="ElementShortName">pc_alter_id_flush</obj_property>
+         <obj_property name="ObjectShortName">pc_alter_id_flush</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/id_flush" type="logic">
+         <obj_property name="ElementShortName">id_flush</obj_property>
+         <obj_property name="ObjectShortName">id_flush</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group336" type="group">
+      <obj_property name="label">ID/EX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="group375" type="group">
+         <obj_property name="label">control</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/cpu_sim/uut/id_ex_ex_alu_source_a_reg" type="logic">
+            <obj_property name="ElementShortName">id_ex_ex_alu_source_a_reg</obj_property>
+            <obj_property name="ObjectShortName">id_ex_ex_alu_source_a_reg</obj_property>
+         </wvobject>
+         <wvobject fp_name="/cpu_sim/uut/id_ex_ex_alu_source_b_reg" type="logic">
+            <obj_property name="ElementShortName">id_ex_ex_alu_source_b_reg</obj_property>
+            <obj_property name="ObjectShortName">id_ex_ex_alu_source_b_reg</obj_property>
+         </wvobject>
+         <wvobject fp_name="/cpu_sim/uut/id_ex_ex_alu_operation_reg" type="array">
+            <obj_property name="ElementShortName">id_ex_ex_alu_operation_reg[3:0]</obj_property>
+            <obj_property name="ObjectShortName">id_ex_ex_alu_operation_reg[3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/cpu_sim/uut/id_ex_mem_mem_write_reg" type="logic">
+            <obj_property name="ElementShortName">id_ex_mem_mem_write_reg</obj_property>
+            <obj_property name="ObjectShortName">id_ex_mem_mem_write_reg</obj_property>
+         </wvobject>
+         <wvobject fp_name="/cpu_sim/uut/id_ex_mem_mem_read_reg" type="logic">
+            <obj_property name="ElementShortName">id_ex_mem_mem_read_reg</obj_property>
+            <obj_property name="ObjectShortName">id_ex_mem_mem_read_reg</obj_property>
+         </wvobject>
+         <wvobject fp_name="/cpu_sim/uut/id_ex_mem_pc_source_reg" type="array">
+            <obj_property name="ElementShortName">id_ex_mem_pc_source_reg[2:0]</obj_property>
+            <obj_property name="ObjectShortName">id_ex_mem_pc_source_reg[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/cpu_sim/uut/id_ex_wb_reg_write_reg" type="logic">
+            <obj_property name="ElementShortName">id_ex_wb_reg_write_reg</obj_property>
+            <obj_property name="ObjectShortName">id_ex_wb_reg_write_reg</obj_property>
+         </wvobject>
+         <wvobject fp_name="/cpu_sim/uut/id_ex_wb_data_to_reg_reg" type="array">
+            <obj_property name="ElementShortName">id_ex_wb_data_to_reg_reg[1:0]</obj_property>
+            <obj_property name="ObjectShortName">id_ex_wb_data_to_reg_reg[1:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/id_ex_rd_data_a_reg" type="array">
+         <obj_property name="ElementShortName">id_ex_rd_data_a_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">id_ex_rd_data_a_reg[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/id_ex_rd_data_b_reg" type="array">
+         <obj_property name="ElementShortName">id_ex_rd_data_b_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">id_ex_rd_data_b_reg[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/id_ex_pc_reg" type="array">
+         <obj_property name="ElementShortName">id_ex_pc_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">id_ex_pc_reg[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/id_ex_pc_plus_4_reg" type="array">
+         <obj_property name="ElementShortName">id_ex_pc_plus_4_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">id_ex_pc_plus_4_reg[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/id_ex_pc_plus_offset_reg" type="array">
+         <obj_property name="ElementShortName">id_ex_pc_plus_offset_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">id_ex_pc_plus_offset_reg[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/id_ex_imm_reg" type="array">
+         <obj_property name="ElementShortName">id_ex_imm_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">id_ex_imm_reg[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/id_ex_rd_reg" type="array">
+         <obj_property name="ElementShortName">id_ex_rd_reg[4:0]</obj_property>
+         <obj_property name="ObjectShortName">id_ex_rd_reg[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/id_ex_rs1_reg" type="array">
+         <obj_property name="ElementShortName">id_ex_rs1_reg[4:0]</obj_property>
+         <obj_property name="ObjectShortName">id_ex_rs1_reg[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/id_ex_rs2_reg" type="array">
+         <obj_property name="ElementShortName">id_ex_rs2_reg[4:0]</obj_property>
+         <obj_property name="ObjectShortName">id_ex_rs2_reg[4:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group337" type="group">
+      <obj_property name="label">EX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/cpu_sim/uut/operand_a_original" type="array">
+         <obj_property name="ElementShortName">operand_a_original[31:0]</obj_property>
+         <obj_property name="ObjectShortName">operand_a_original[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/operand_b_original" type="array">
+         <obj_property name="ElementShortName">operand_b_original[31:0]</obj_property>
+         <obj_property name="ObjectShortName">operand_b_original[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/operand_a" type="array">
+         <obj_property name="ElementShortName">operand_a[31:0]</obj_property>
+         <obj_property name="ObjectShortName">operand_a[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/operand_b" type="array">
+         <obj_property name="ElementShortName">operand_b[31:0]</obj_property>
+         <obj_property name="ObjectShortName">operand_b[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/alu_result" type="array">
+         <obj_property name="ElementShortName">alu_result[31:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_result[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/ex_mem_write_data_next" type="array">
+         <obj_property name="ElementShortName">ex_mem_write_data_next[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ex_mem_write_data_next[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/ex_flush" type="logic">
+         <obj_property name="ElementShortName">ex_flush</obj_property>
+         <obj_property name="ObjectShortName">ex_flush</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group338" type="group">
+      <obj_property name="label">EX/MEM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="group376" type="group">
+         <obj_property name="label">control</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/cpu_sim/uut/ex_mem_mem_mem_write_reg" type="logic">
+            <obj_property name="ElementShortName">ex_mem_mem_mem_write_reg</obj_property>
+            <obj_property name="ObjectShortName">ex_mem_mem_mem_write_reg</obj_property>
+         </wvobject>
+         <wvobject fp_name="/cpu_sim/uut/ex_mem_mem_mem_read_reg" type="logic">
+            <obj_property name="ElementShortName">ex_mem_mem_mem_read_reg</obj_property>
+            <obj_property name="ObjectShortName">ex_mem_mem_mem_read_reg</obj_property>
+         </wvobject>
+         <wvobject fp_name="/cpu_sim/uut/ex_mem_mem_pc_source_reg" type="array">
+            <obj_property name="ElementShortName">ex_mem_mem_pc_source_reg[2:0]</obj_property>
+            <obj_property name="ObjectShortName">ex_mem_mem_pc_source_reg[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/cpu_sim/uut/ex_mem_wb_reg_write_reg" type="logic">
+            <obj_property name="ElementShortName">ex_mem_wb_reg_write_reg</obj_property>
+            <obj_property name="ObjectShortName">ex_mem_wb_reg_write_reg</obj_property>
+         </wvobject>
+         <wvobject fp_name="/cpu_sim/uut/ex_mem_wb_data_to_reg_reg" type="array">
+            <obj_property name="ElementShortName">ex_mem_wb_data_to_reg_reg[1:0]</obj_property>
+            <obj_property name="ObjectShortName">ex_mem_wb_data_to_reg_reg[1:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/ex_mem_alu_result_reg" type="array">
+         <obj_property name="ElementShortName">ex_mem_alu_result_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ex_mem_alu_result_reg[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/ex_mem_rd_data_b_reg" type="array">
+         <obj_property name="ElementShortName">ex_mem_rd_data_b_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ex_mem_rd_data_b_reg[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/ex_mem_write_data_reg" type="array">
+         <obj_property name="ElementShortName">ex_mem_write_data_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ex_mem_write_data_reg[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/ex_mem_rd_reg" type="array">
+         <obj_property name="ElementShortName">ex_mem_rd_reg[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ex_mem_rd_reg[4:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group339" type="group">
+      <obj_property name="label">MEM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/cpu_sim/uut/zero" type="logic">
+         <obj_property name="ElementShortName">zero</obj_property>
+         <obj_property name="ObjectShortName">zero</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/memory_data" type="array">
+         <obj_property name="ElementShortName">memory_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">memory_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/mem_wb_write_data_next" type="array">
+         <obj_property name="ElementShortName">mem_wb_write_data_next[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_wb_write_data_next[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/branch_taken" type="logic">
+         <obj_property name="ElementShortName">branch_taken</obj_property>
+         <obj_property name="ObjectShortName">branch_taken</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group340" type="group">
+      <obj_property name="label">MEM/WB</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="group377" type="group">
+         <obj_property name="label">control</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/cpu_sim/uut/mem_wb_wb_reg_write_reg" type="logic">
+            <obj_property name="ElementShortName">mem_wb_wb_reg_write_reg</obj_property>
+            <obj_property name="ObjectShortName">mem_wb_wb_reg_write_reg</obj_property>
+         </wvobject>
+         <wvobject fp_name="/cpu_sim/uut/mem_wb_wb_data_to_reg_reg" type="array">
+            <obj_property name="ElementShortName">mem_wb_wb_data_to_reg_reg[1:0]</obj_property>
+            <obj_property name="ObjectShortName">mem_wb_wb_data_to_reg_reg[1:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/mem_wb_mem_data_reg" type="array">
+         <obj_property name="ElementShortName">mem_wb_mem_data_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_wb_mem_data_reg[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/mem_wb_write_data_reg" type="array">
+         <obj_property name="ElementShortName">mem_wb_write_data_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_wb_write_data_reg[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/mem_wb_rd_reg" type="array">
+         <obj_property name="ElementShortName">mem_wb_rd_reg[4:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_wb_rd_reg[4:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group341" type="group">
+      <obj_property name="label">WB</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/cpu_sim/uut/write_data" type="array">
+         <obj_property name="ElementShortName">write_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">write_data[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group342" type="group">
+      <obj_property name="label">forward</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/cpu_sim/uut/forward_alu_a" type="array">
+         <obj_property name="ElementShortName">forward_alu_a[1:0]</obj_property>
+         <obj_property name="ObjectShortName">forward_alu_a[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/forward_alu_b" type="array">
+         <obj_property name="ElementShortName">forward_alu_b[1:0]</obj_property>
+         <obj_property name="ObjectShortName">forward_alu_b[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group343" type="group">
+      <obj_property name="label">hazard</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/cpu_sim/uut/pc_write" type="logic">
+         <obj_property name="ElementShortName">pc_write</obj_property>
+         <obj_property name="ObjectShortName">pc_write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/if_id_write" type="logic">
+         <obj_property name="ElementShortName">if_id_write</obj_property>
+         <obj_property name="ObjectShortName">if_id_write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/hazard_id_flush" type="logic">
+         <obj_property name="ElementShortName">hazard_id_flush</obj_property>
+         <obj_property name="ObjectShortName">hazard_id_flush</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_sim/uut/alu_operand_stall" type="logic">
+         <obj_property name="ElementShortName">alu_operand_stall</obj_property>
+         <obj_property name="ObjectShortName">alu_operand_stall</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
