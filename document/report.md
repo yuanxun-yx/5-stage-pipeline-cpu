@@ -38,7 +38,7 @@ With a careful check to all timing issues, I redesigned every detail of this CPU
 
 Here's an overview of this design:
 
-![Pipelined CPU](figure/Pipelined CPU.jpg)
+![Pipelined CPU](figure/Pipelined%20CPU.jpg)
 
 <center>
     Figure 1 Pipelined CPU
@@ -226,13 +226,13 @@ jalr zero, 0(ra)
     Table 1 Correct Value of Used GPRs After Running the Program (by RARS)
 </center>
 
-![single cycle sim](figure/single cycle sim.PNG)
+![single cycle sim](figure/single%20cycle%20sim.PNG)
 
 <center>
     Figure 2 Simulation Result of <b>Single-Cycle</b> CPU
 </center>
 
-![pipelined cpu sim](figure/pipelined cpu sim.jpg)
+![pipelined cpu sim](figure/pipelined%20cpu%20sim.jpg)
 
 <center>
     Figure 3 Simulation Result of <b>Pipelined</b> CPU

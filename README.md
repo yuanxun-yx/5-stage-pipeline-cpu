@@ -11,7 +11,7 @@
 
 ## Debug VGA
 
-If you want the debug VGA module to be added, uncomment the ``define` code in `./source/header/debug.vh`.
+If you want the debug VGA module to be added, uncomment the `define` code in `./source/header/debug.vh`.
 
 ## Setup Project
 
