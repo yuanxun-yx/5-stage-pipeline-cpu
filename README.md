@@ -1,4 +1,8 @@
-**`makefile` in this repository ONLY supports WINDOWS!** Please make sure Vivado is installed and added to PATH.
+# Basic 5 Stage Pipelined CPU 
+
+## Reference
+
+John L. Hennessy and David A. Patterson. (2017). *Computer Architecture: A Quantitative Approach, Sixth Edition.* Morgan Kaufmann Publishers Inc.
 
 ## Folders
 
@@ -8,6 +12,10 @@
 - program: test assembly program and its binary file
 - constraint: xdc constraint file
 - simulation: Verilog CPU simulation files & wave configuration file
+
+## Requirements
+
+`makefile` in this repository is only tested on Windows. Please make sure Vivado is installed and added to `PATH`.
 
 ## Debug VGA
 
